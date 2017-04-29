@@ -1,3 +1,4 @@
+
 /* Universal Rules */
 
 .html {
@@ -16,7 +17,7 @@ body {
 }
 
 div {
-  border: 1px solid red;
+  border: 1px solid red; 
   display: block;
 }
 
@@ -112,11 +113,114 @@ nav li {
   margin-bottom: 1.2rem;
 }
 
+.service img.paper-icon {
+    width: 3.5rem;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.more-info {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.more-info p {
+  padding-top: 1rem;
+}
+
+.title {
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-size: 1rem;
+  font-weight: bold;
+  max-width: 10rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.foot-bg {
+  background-color: azure;
+  align-items: center;
+  font-size: 100%;
+}
+
+.foot-content {
+  padding: 4rem;
+}
+
+.foot-content img {
+  height: 1.5rem;
+}
+
+.foot-content span {
+  padding-left: 1rem;
+}
+
+/*Mobile Devices - 620px or less */
+
+@media only screen and (max-width: 620px) {
+  .header {
+    padding-top: 0;
+    background-position: 20%;
+    max-height: 17rem;
+  }
+  .header span {
+    display: none;
+  }
+  .full-menu {
+    display: none;
+  }
+  .masthead-text {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    margin: 16rem auto 0 auto;
+    font-size: 1rem;
+  }
+  .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3.77rem;
+    padding-bottom: 3.77rem;
+  }
+  
+  .additional-info {
+    flex-direction: column;
+  }
+  
+  .more-info {
+    width: 100%;
+  }
+  
+  .more-info p {
+    padding-bottom: 4rem;
+  }
+  
+  .title {
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .foot-content {
+    justify-content: center;
+  }
+  .foot-content span {
+    display: none;
+  }
+}
 
 
 
+/* Tablet Devices - 1024px to 621px */
 
-
+@media only screen and (max-width: 1024px) and (min-width: 621px) {
+  
+}
 
 
 
